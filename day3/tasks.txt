@@ -1,0 +1,99 @@
+1) longest substring without repeating chars
+
+ex: s = "abcabcbb"
+ouput: 3
+explanation : "abc" is longest
+
+s = "pwwkew"
+out: "wke"
+
+
+2) What is constructor ?
+
+Special method. It is invoked when an object is created.
+To initialise class variables. Same name as class name
+No return type.
+1. Default constructor
+2. Parameterized constructor
+
+if u dont have a constructor in your class java compiler 
+adds a Default constructor during compilation.
+
+3) mostly used
+
+toString()
+
+charAt()
+getChars()
+getBytes()
+toCharArray()
+
+equals() and equalsIgnoreCase()
+regionMatches()
+startsWith() and endsWith()
+compareTo()
+
+substring()
+concat()
+replace()
+trim()
+
+Data Conversion:
+valueOf()
+
+String Buffer Constructors :
+length() and capacity()
+setLength()
+charAT() and setCharAt()
+getChars()
+append()
+insert()
+reverse()
+delete() and deleteCharAt()
+replace()
+substring()
+
+
+
+
+
+ex:
+String s = "Hello"
+char[] ch = s.toCharArray();
+
+
+
+4) Bank Account Management:
+
+Create a class called 'BankAccount' that represents
+a bank account. The 'BankAccount' class should have an instance variables such as 
+'accountNumber' , 'accountHolderName', 'balance', etc.,
+Write a constructor for the 'BankAccount' class that takes these parameters and initialises
+the instance variables.
+use the 'BankAccount' class to create bank account objects and simulate banking operations like
+deposit, withdraw, and balance enquiry
+
+
+
+5) Employee PayrollSystem 
+
+Design a class called Employee that represents an Employee in a payroll system.
+variables = employeeId, name, designation, salary
+write constructor and initialise the instance variables
+create objects and demonstrate their usage in a payroll system to 
+calculate monthly salaries, give raises, and generate payroll reports.
+
+
+
+6) 
+Product Inventory Management:
+class : Product
+variables : ProductId, ProductName, price
+constructor: 
+methods : addnewProducts, updateProducts, calculateTotalInventoryValue
+
+.
+
+
+
+
