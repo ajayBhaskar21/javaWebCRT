@@ -1,0 +1,162 @@
+
+
+1) two sum.
+array of integers and a target sum.
+find two numbers in array that add to target sum
+
+num = [2, 7, 11, 15]
+target sum = 9
+output = [0, 1]
+
+* Optimal = use hash Tables
+
+2) 
+some courses may have prerequisites and prerequisites have to be 
+taken before taking a course. determine if it is possible to finish
+all the courses
+
+for ex: the pair [0, 1] indicates that to take course 0 you have to first take
+course 1 Return true if u can finish all courses otherwise return false.
+
+
+3) Exception handling
+
+
+It is a mechanism that allows developers to deal with runtime 
+errors or exceptional conditions that may occur during the exceution
+of a program. It provides a great way to gracefully handle to prevent the program
+the program from crashing or behaving unpredictably.
+
+In java exceptions are represented by objects 
+that are derived from the 'Throwable' class.
+There are two main types of exceptions are 'Checked Exceptions' are
+those that are need to be declared in the method signature
+or handled using a 'try-catch' block, where are 
+'Unchecked Exceptions' (also known as runtime exceptions) do not require explicit handling.
+
+
+Exception handling in java follows a structured approach using three main keyword.
+'try', 'catch', 'finally'.
+
+
+try block contains the code which may throw an Exception
+catch block handles the exception it can catch 
+and the actions to be taken when the exception occurs.
+finally block is optional, it executes like else block in if else ladder.
+
+
+File I/O : When reading or writing files exceptions 
+may occur if the file not found, permissions are inadequate, or the file is 
+corrupted. Exception handling allows developers to handle 
+these cases gracefully and provide appropriate feedback to the user.
+
+
+4)  Health Care Application
+class Patient: id, name, parameterized constructor.
+define custom exception called "patientNotFoundException"
+this exception can be thrown when a Healthcare provider or a system tries to access a patient 
+records or perform operations as a patient who is not found in the system.
+By catching this exception , you can handle the situation appropriately log the incident
+for further investigation and potentially prompt user to verify the patient details.
+
+
+
+5) classes - Getters and setters
+used to update and access private variables.
+
+
+6) this 
+
+this is the reserved keyword in java that can be used to invoke 
+constructor , methods , static members of the current instance of a class.
+
+
+7) super 
+
+super is a reserved keyword. used to invoke parent class constructor and methods.
+
+
+
+
+
+8) ArrayList
+
+ArrayList in java supports dynamic arrays .
+It is based on array data structure.
+Resizable. grows and shrinks.
+It is part of collection framework
+it extends AbstractList class and implements List interface. 
+declared in java.util package.
+used for creating dynamic array that are resiable in nature.
+
+Syntax:
+public class ArrayList<E> 
+
+ArrayList<Type> arr = new ArrayList<Type>();
+
+adding into ArrayList:
+
+ArrayList<> a = new ArrayList<>();
+
+add(object o): adds object at the end of ArrayList.
+add(index i, object o) : add object at specified index.
+
+
+get element in ArrayList:
+
+get(index i) 
+ex:
+a.get(0)
+
+get(index) throws java.util.IndexOutOfBoundException is index >= size of ArrayList.
+
+sort ArrayList:
+
+we can sort :
+this method is available in collection framework.
+Collections.sort(ArrayList);
+
+set() in ArrayList:
+
+
+Syntax:
+set(int index, E element):
+
+at index this element is replaced in the ArrayList
+
+length of ArrayList:
+arr.size()
+
+
+checkif ArrayList is empty or not:
+arr.isEmpty()
+returns true if ArrayList is empty otherwise false
+
+clear() : removes all the elements from ArrayList
+
+contains(Object o): returns true if object is present otherwise false
+
+lastindex(Object o): returns last occurrence of object , if not present -1 is returned
+
+toArray() : returns array containing all the elements present in ArrayList in proper sequence
+
+subList(int fromIndex, int toIndex) : returns portion of the ArrayList.
+
+trimToSize() : trims the capacity of the ArrayListinstance to the list's current size
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
