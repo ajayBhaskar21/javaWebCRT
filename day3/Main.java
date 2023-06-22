@@ -1,5 +1,14 @@
 import java.util.*;
 
+
+
+class InsufficientFundsException  extends Exception{
+
+    InsufficientFundsException(String message) {
+        super(message);
+    }
+}
+
 class BankAccount {
 
     private String accountNumber;
@@ -13,14 +22,43 @@ class BankAccount {
         this.balance = balance;
     }
 
-    public void deposit(double amount) {
-        balance += amount;
-        System.out.println("Successfully deposited in " + accountHolderName + "'s account");
-        System.out.println("Remaining balance: " + balance);
+    public String getAccountNumber() {
+        return this.accountNumber;
+    }
+    public String getaccountHolderName() {
+        return this.accountHolderName;
+    }
+    public double getbalance() {
+        return this.balance;
     }
 
-    public void withdraw(double amount) {
+    public void setAccountNumber(String accountNumber) {
+        this.accountNumber = accountNumber;
+    }
 
+    public void setaccountHolderName(String accName) {
+        this.accountHolderName = accName;
+    }
+
+    public void setbalance(double balance) {
+        this.balance = balance;
+    }
+
+    public void deposit(double amount) {
+        this.balance += amount;
+        System.out.println("Successfully deposited in " + this.accountHolderName + "'s account");
+        System.out.println("Remaining balance: " + this.balance);
+    }
+
+    public void withdraw(double amount) throws InsufficientFundsException {
+
+        
+        if (amount > this.balance) {
+            throw new InsufficientFundsException("Insufficient funds in the account.");
+
+        }
+        
+/* 
         if (amount > balance) {
             System.out.println("Insufficient funds!");
 
@@ -30,6 +68,9 @@ class BankAccount {
             balance -= amount;
             System.out.println("Remaining Balance : " + balance);
         }
+
+
+*/
     }
 
     public void balanceEnquiry(BankAccount[] arr) {
@@ -61,8 +102,24 @@ public class Main {
 
         //obj[0].balanceEnquiry(obj);
         obj[1].deposit(55.361);
-        obj[1].withdraw(999);
-        obj[2].withdraw(1222);
-        obj[0].withdraw(1500.52611);
+
+
+        try {
+            obj[1].withdraw(111);
+        } catch(InsufficientFundsException e) {
+            System.out.println("Error : " + e.getMessage());
+        }
+        
+
+
+        //obj[2].withdraw(1222);
+        //obj[0].withdraw(1500.52611);
+
+        System.out.print("Account number is " + obj[0].getAccountNumber());;
+
+
+
+
+
     }
 }
