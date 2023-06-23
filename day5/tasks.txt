@@ -1,0 +1,52 @@
+
+
+
+1) Online shopping cart:
+
+Create an online shopping cart using ArrayList 
+to store the items selected by user, 
+Allow user to add items to the cart , 
+remove items , calculate total price, 
+and display the items in the cart.
+
+classProduct: name, price
+the program allows users to interact with the online shopping cart.
+They can add items to cart, remove by index, calculate the total price and
+display the items present in the cart.
+The program use Product class to represent items and ShoppingCart class 
+encapsulates the cart operations.
+Users can select options from menu, add then program handles the corresponding
+oprations accordingly. menu driven.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
