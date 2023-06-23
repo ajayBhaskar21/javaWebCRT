@@ -75,6 +75,15 @@ offerLast(E element) : add at tail.
 
 
 
+4)
+
+Write a program to find the middle node of a 
+singly linkedlist. If the length of the list is even
+return second middle node. Implement a method which takes 
+a head and returns the value.
+
+
+
 
 
 
