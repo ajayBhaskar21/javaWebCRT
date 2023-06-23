@@ -22,9 +22,54 @@ oprations accordingly. menu driven.
 
 
 
+2) Linked List
+
+linear data structure .
+it is stored as an object in non- contiguous memory locations.
+two things are stored. 
+value and nextAddressLocation or previousAddress.
+
+i) singly linked list: Each object stores data and next address.
+Only traversal is single directional.
 
 
 
+LinkedList<> a = new LinkedList<>();
+
+3) Student Grading System:
+
+develop a student Grading System using 
+linked list to store student objects with their 
+grades. Implement functionalities like adding students,
+calculate average grade, finding highest and lowest grades and display 
+student details.
+
+Implement student grading System using LinkedList as a queue.
+
+
+menu:
+1. addStudent
+2. calculate avg
+3. find highest grade student
+4. find lowest grade student
+5. display details
+6. exit
+
+
+
+
+
+methods :
+
+peek() : returns head, but does not remove
+peekFirst() : returns head or null
+peekLast() : returns tail or null
+pollFirst() : returns first element and removes element or null if element not present
+pollLast() : returns last element and removes element or null if element not present
+poll() : returns first element and removes element 
+offer(E element) : add element as tail of the list
+offerFirst(E element) : add element at front
+offerLast(E element) : add at tail.
 
 
 

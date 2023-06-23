@@ -144,13 +144,14 @@ class Main1 {
             int check = in.nextInt();
 
             if (check == 1) {
+                System.out.print("Enter name and price : ");
+                String name = in.next();
+                double price = in.nextFloat();
+                mainObj.addProduct(name, price);
 
-                // String name = in.nextLine();
-                // double price = in.nextDouble();
-                // mainObj.addProduct(name, price);
-
-                mainObj.addProduct("Hp", 541528);
+                //mainObj.addProduct("Hp", 541528);
                 arr.add(mainObj);
+                System.out.println("Successfully Added");
             }
             else if (check == 2) {
                 mainObj.getDetails(arr);
