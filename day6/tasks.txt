@@ -1,0 +1,30 @@
+
+
+
+1) reverse singly linked list without recursion ?
+
+
+2) remove duplicates in an unsorted linked list?
+
+
+3)
+Scenario :
+Contact Management System: 
+You are asked with implementing a Contact Management System 
+using singly linked list. The Contact Management System
+allows users to store and manage their Contacts, include and adding 
+new Contacts, search for Contacts and display all contacts.
+
+requirements:
+1. class "Contact" with following properties.
+* name = String -> Contact name.
+* phoneNumber = String -> phoneNumber of contact.
+* email = String -> email of contact.
+
+2. Implement a class "ContactList" that manages the contact list using singly linked list.
+* addContact(Contact contact) : adds contact 
+* searchContact (String name) : searches contact by name and returns details if found.
+* displayContact (): displays all details of contacts.
+
+
+
