@@ -5,7 +5,7 @@ import java.io.*;
 public class countFreq {
     public static void main(String[] args) {
         
-/*
+/*    To read File from the system.
         // File path is passed as parameter
         File file = new File(
             "C:\\Users\\ADMIN\\Desktop\\4010\\java\\day6\\tasks.txt");
@@ -38,6 +38,8 @@ public class countFreq {
 
         String[] words = txt.split(" ");
 
+        // This for loop is used to remove commas and fullstops and 
+        // can be used to remove other symbols from the words.
         for (int i = 0; i < words.length; i++) {
             String temp = "";
             if (words[i].contains(",")) {
