@@ -26,5 +26,66 @@ requirements:
 * searchContact (String name) : searches contact by name and returns details if found.
 * displayContact (): displays all details of contacts.
 
+4)  HashMap :
+
+
+A HashTable in java is a data structure that maps keys to values.
+it is similar to map interface and is implemented by the 
+java.util.Hashtable class. It is a key-value pair collection where
+any non-null object can be used as a key or value.
+The internal working of a HashTable:
+1. the Hash table data structure is an array of buckets.
+where each bucket can store multiple key/pairs.
+2. hash function is used to determine the index of the bucket 
+where the key/value pair should be stored.
+3. If two unequal objects have same hashcode then collision. 
+to resolve uses an array of list. The pair mapped to single bucket 
+are stored in a list, and the list references is stored in array index.
+4. The equal() method is used to determine if two objects are equal 
+or not.
+5. put() method is to create a HashTable and add key/value pairs to.
+6. get() method used to retrieve a value from the HashTable.
+7. remove() : to remove a key/value pair.
+8. containsKey() : used to check for a key.
+9. KeySet() : used to iterate over the key/value pair.
+
+
+
+5) Dictionary: 
+A common use case of Hashtable is in implementing a Dictionary.
+You can use a HashTable to store as keys and their corresponding definition values.
+
+6) HashMap
+It is implementation of map, which is a key value.
+Ex: create a HashMap in Java:
+
+HashMap<k, v> languages = new HashMap<>();
+HashMap<String , Integer> languages = new HashMap<>();
+
+// add elements
+languages.put("java", 8);
+languages.put("JavaScript", 1);
+languages.put("Python", 3);
+System.out.println("HashMap : " + languages);
+
+Constructor : HashMap()
+
+
+Syntax :
+HashMap<k, v> hm = new HashMap<k, v>();
+
+
+7) Countinf Frequencies.
+write a program using hash table or hash map 
+to count the occurence of words in a text document. The words 
+can be used as keys and corresponding values be the Frequencies.
+
+
+
+
+
+
+
+
 
 
