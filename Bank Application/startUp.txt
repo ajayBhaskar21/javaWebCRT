@@ -1,0 +1,76 @@
+
+
+
+
+Map<AccountNumber, BankAccountDetails> 
+
+BankAccountDetails = object.
+
+addAccount = only manager
+getAllDetails = only manager.
+
+
+class Account {
+    name;
+    balance;
+    password;
+}
+
+
+class Manager {
+    username;
+    password;
+
+
+    checkIfManager(username, password) {
+
+    }
+
+}
+
+class BankApplication {
+    Manager manager;
+    Account account;
+
+    addAccount() {
+
+        checkIfManager() {
+
+        }
+
+    }
+
+
+    getAllDetails() {
+
+        checkIfManager() {
+
+        }
+    }
+
+    deposit() {
+
+    }
+
+    withdraw() {
+
+    }
+
+
+    changeAccountName() {
+
+    }
+
+    changeAccountPassword() {
+
+    }
+
+    main() {
+
+        HashMap<AccountNumber, Account> accounts;
+        
+
+    }
+}
+
+
