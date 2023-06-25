@@ -171,6 +171,8 @@ public class BankApplication {
             }
             catch (InputMismatchException e) {
                 System.out.println(" only numerical values allowed for amount!");
+                scanner.nextLine(); // Clear the invalid input from the scanner buffer.
+                                    // This is needed to avoid breaking of while loop.
             }
         }
     }
@@ -194,6 +196,8 @@ public class BankApplication {
             }
             catch (InputMismatchException e) {
                 System.out.println(" only numerical values allowed for amount!");
+                scanner.nextLine(); // Clear the invalid input from the scanner buffer.
+                                    // This is needed to avoid breaking of while loop.
             }
         }
     }
