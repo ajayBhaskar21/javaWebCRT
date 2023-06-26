@@ -1,0 +1,247 @@
+
+
+
+what is HTML;
+
+
+HTML : Tag Based language
+Creates elements in the web page
+Creates a basic appearance to the web page
+
+
+CSS: It is a Property based language 
+Creates styles in the web page.
+Adds beauty to the web page
+
+
+JavaScript : Statement based programming language
+Creates functionality to the web page.
+Makes the web page interactive to the user.
+
+features of HTML: 
+MarkUp language
+Excuted by browsers.
+Not a case sensitive language
+
+History :
+Developed by Tim Berners Lee in 1991
+HTMl 1.0 late 1991
+HTMl 2.0 1995
+Html 3.0    1997
+HTMl 4.0    1997
+HTML 5.0: 2014
+HTMl 5.1 : 2016
+Html 5.2 : 2017
+
+Defintion : <html>, <head>, <title>, <body>, 
+<!DOCTYPE>, <meta>, <style>
+
+
+Tables : <table>, <tr>, <th>, <td>, <caption>
+<thead>, <tbody>, <tfoot>
+
+General : 
+<blockquote>, <abbr>, <code>, <ins>
+<del>, <details>, <summary>, <dialog>, <kbd>
+<mark>, <meter>, <progress>, <hr>, <time>
+
+
+Semantic: 
+<div>, <article>, <aside>, <header>, <footer>, <nav>
+<section>, <span>
+
+Lists : <dl>, <dd>, <dt>, <ul>, <ol>, <li>
+
+Resources: <link>, <script>
+
+
+Text :
+<b>, <i>, <u>, <sup>, <sub>, <br>, <em>,
+<h1> ... <h6>
+<p>, <pre>, <strong>, 
+
+Media :
+<img>, <audio>, <video>, <source>, <area>, <canvas>, <svg>
+<embed>, <figure>, <figcaption>, <map>, <picture>, <track>
+
+Forms: 
+<form>, <input>, <textarea>, <select>, <option>, <optgroup>, 
+<label>, <button>, <fieldset>, <legend>, <datalist>, <output>
+
+
+Links and frames :
+<a>, <iframe>
+
+Anatomy of Html tag :
+Command to browser, to display something
+Type of tags: 
+Un-paired tags : Just a Command to browser.
+paired tags : start point and end point.
+Syntax :
+<tag> </tag>
+
+
+HTMl Document Structure :
+<html>
+    <head>
+        // Document details
+
+    </head>
+    <body> 
+        // Visible content
+    </body>
+
+</html>
+
+
+create first Html Application
+Install :
+VS code
+Save file with ".html" extension
+
+run : double click the html file.
+
+<!DOCTYPE>
+this is standardized and recommeded by the World Wide Web Consortium (W3C).
+When the browser encounters this doctype, it knows to interpret the HTML code that
+follows .
+
+
+<hr> (horizontal Ruler)
+Creates horizontal ruler (separator line)
+unpaired tag
+can be used in <body> tag
+
+div
+Creates a diviion or section of the document Acts as a container of a 
+container of many other html tags.
+
+
+css:
+not case sensitive.
+defines key value pairs. Eg: Property: value;
+
+
+History : Developed by Hakon Wilum Lie and Bert Bos in 1996
+
+CSS1 : 1996
+CSS2 : 1998
+CSS 2.1 : 2011
+CSS 3 : 2017 till date
+
+Anatomomy of CSS Style: 
+selector {
+    Property : value;
+
+}
+
+Tag selector :
+
+tag : ex: div 
+select all instances of a specific tag 
+No symbol; just write a name of the tag.
+
+
+
+ID Selector: #id 
+<tag id="yourID">
+#yourID {
+    Property: value;
+}
+
+
+Class selector: 
+
+(.class)
+<tag class = "yourClass"> </tag>
+selects all the instances of a tag, based on the "classname"
+
+
+
+Font Style: 
+normal | italic;
+
+Font Size: 
+font-size:number;
+font-size:20px;
+default:16px
+px=pixels(dot)
+em=EM.current fontsize(Ex: 16px)
+pt=points. 1 / 72 of an inch
+% percent. 100%=current font size(Ex: 16px)
+vh=1%of viewport height
+vw = 1% of viewport width.
+
+font weight;
+
+font-weight: normal | bold | bolder | lighter | number;
+
+specifies text thickness i.e normal or bold or bolder or 
+lighter or any number 
+400 = normal;
+700 = bold;
+
+Font Variant :
+font-variant: normal | small-caps;
+ex: font-variant: small-caps;
+the browser display the text in small caps font 
+
+Color:
+color : hexadecimal_number;
+Eg: color:#290eao;
+
+Possible values:
+1. hexadecimal number : #XXXXXX
+2. rgb(red, green, blue) : 0 to 255;
+3. rgba(red, green, blue, opacity) : opacity be 0 to 1 or limited color names 
+4. color name : limited color names
+
+
+Common hexadecimal colors
+
+
+
+Text:- align
+
+text-align: left | right | center |justify
+
+text-decoration: text-decoration-line text-decoration-colortext-decoration-style
+
+eg: text-decoration: underline red waved;
+
+
+Text-Transform
+text-form: none | uppercase | lowercase | capitalize;
+
+Text-indent
+suntax : text-indent:number;
+text-indent: 50px;
+Specifies left indentation of the first line in a text block. Default is "0"
+
+Letter-spacing: number;
+letter-spacing:5px;
+space between characters , negative values are allowed as well
+default is "normal text style"
+
+
+Line-Hheight:
+line-height:number;
+eg: line-height:200%;
+specifies height of line of text.
+Default is "normal"
+
+
+Word-spacing:
+word-spacing:numer;
+ex: word-spacing:40px;
+specifies space between words.
+Default is normal (0.25em)
+
+
+
+Task :
+
+Create a web page :
+My Super Sunday
+
+
