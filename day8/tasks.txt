@@ -1,0 +1,199 @@
+Text-Shadow:
+text-shadow: h-shadow v-shadow blur-radius color;
+Ex:text-shadow:5px 3px 6px red;
+h-shadow +/- number         Mandatory
+v-shadow +/- number         Mandatory
+blur-radius +/-number       optional
+color: any color            optional
+show dow of text.By default is "none"
+----------------------------------------------------------------------------
+White-Space:
+white-space: normal | nowrap | pre;
+normal:Sequence of spaces are combined into single space.Text will wrap automatically.
+nowrap: Sequence of spaces are combined into single space.Txt will never wrap automatically.Text wraps when
+<br> tag is used.
+pre: Similar to <pre> tag in html, the text will be displayed as-it-is, along with spaces
+and line breaks in source code.
+------------------------------------------------------------------------------
+Text-Direction:
+direction:ltr | rtl;
+Specifies text direction either ltr(left to right) or rtl(right to left).
+-------------------------------------------------------------------------------
+<span>:
+<span></span>
+Creates small part of the text
+Acts as container of other small tags such as <b>,<l>,<u> etc
+<span> is a linear container;<div> is block level container.
+Can be nested.
+--------------------------------------------------------------------------------
+Font-Awesome Icons:
+
+import:
+<link rel="stylesheet"
+href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" crossorigin="anonymous">
+
+
+Icon: <span class="fa fa-iconname"></span>
+"Font -Awesome" is an "Icon Library", which provides 1500+ Free icons and 7000+ pro icons.
+Brings professional look to the website
+-----------------------------------------------------------------------------------
+Google Icons:
+Import:
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?"
+family="Materail+Icons">
+Icon: <span class="material-icons">iconname</span>
+"Google Icons"/"Material Icons" is an "Icon library" which provides plenty of 100% free icons
+Brings professional look to the website.
+----------------------------------------------------------------------------------------
+Background-Color:
+syntax:
+background-color:hexadecimal_number;
+eg: background-color:#290ea0;
+Possible values:
+1. Hexadecimal Numbers
+2. rgb(red, green, blue):each can be 0 to 255
+3. rgba(red, green, blue, opacity): opacity in the range 0 to 1.
+4. color name:limited color name.
+
+Specifies background color of the element
+Applicable for any tag.
+-------------------------------------------------------------------------------------------
+Box Model:
+BoxModel=Content
+Padding
+Border
+Margin
+All HTML elements are considered as Boxes.
+All the elements are rendered based on "Box Model".
+
+Margin:
+syntax: margin=number;
+eg: margin:10px;
+Specifies gap between one element to another element when you specify the "margin" property
+the margin-top,margin-right,margin-left,margin-bottom;
+
+margin top right bottom left:
+Syntax:
+margin-top:number;
+margin-bottom:number;
+margin-right:number;
+margin-left:number;
+Specifies margin for individual size.
+----------------------------------------------------------------------------------------------
+Margin-Shorthand:
+Syntax:
+margin : top right bottom left;
+margin : top rightAndLeft bottom;
+margin: topAndBottom rightAndLeft;
+Eg:
+margin: 10px 20px 30px 40px
+margin: 10px 20px 30px
+margin: 10px 20px;
+----------------------------------------------------------------------------------------------
+Padding:
+syntax: padding:number;
+eg: padding: 10px;
+Specifies gap between elements border and content.
+When you specify the "padding property" the "padding-top,padding-bottom,padding-right,padding-left" will
+be equal.
+-----------------------------------------------------------------------------------------------
+<ul>(unordered list)
+<ul>
+    <li>item1</li>
+    <li>item2</li>
+......
+......
+</ul>
+-----------------------------------------------------------------------------------------------
+
+<ol>(ordered list)
+<ol>
+    <li>item1</li>
+    <li>item2</li>
+......
+......
+</ol>
+
+--------------------------------------------------------------------------------------
+
+
+List-Style-Type
+list-style-type:
+disc|square|circle|decimal|decimal-leading-zero|
+lower-alpha|upper-alpha|lower-roman|upper-roman|none;
+
+Specifies type of bullet or number in ul or ol.
+Ex: list-style-type : decimal
+
+---------------------------------------------------------------------------
+
+List-Style-Image
+
+Syntax: list-style-image: url("folder/filename.extension");
+ex: list-style-image: url("myfolder/sample.jpg");
+
+----------------------------------------------------------------
+
+Nested List:
+<ul>
+
+    <li>item1</li>
+    <li>item2</li>
+
+    <ul>
+
+        <li>sub-item1</li>
+        <li>sub-item2</li>
+
+    </ul>
+
+</ul>
+
+
+task of the day :
+My Favourite recepie:
+
+-------------------------------------------------
+<img src="filename" width="px" height="px">
+
+
+
+Display an image within the page 
+It is an inline level element/
+It is recommended to specify the width, height, alternate text of the image.
+
+
+------------------------------------------------------------------------------------
+
+picture as a link 
+<a href="file address"></a>
+
+------------------------------------------------------------------------------------
+
+
+<table>
+
+    <caption> Table Caption here</caption>
+
+    <thead>
+        <tr>
+            <th>Header Cell</th>
+            <th>Header Cell2</th>
+        </tr>
+    </thead>
+    <tbody> 
+
+        <tr>
+            <td>Data Cell1</td>
+            <td>Data Cell2</td>
+        </tr>
+    </tbody>
+</table>
+
+The table is divided into three main sections:
+<thead>, <tbody>, <tfoot>, 
+
+<thead> you define a row using <tr> element 
+With in the row , you use <th> element to define the table headers
+Inside the <tbody>, you define data rows using a <tr> element 
+Within the datarows you use <td> element to defien data cells.
