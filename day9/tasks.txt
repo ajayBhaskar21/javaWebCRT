@@ -52,7 +52,107 @@ overflow : auto
 Css property is used to control the behaviour of content that exceeds
 the size of the box.
 
+------------------------------------------------------------------------------
 
+
+
+Form : 
+
+<form > 
+    input, textarea, select, button, label, fieldset, 
+    datalist tags here
+</form>
+
+Creates a form.
+
+1. action-"url"
+specifies the target server url, to which the form to be submitted.
+2. method="get || post"
+specifies the request to get or post request through which the form should be submitted.
+In case of get the form elements (a.k.a parameters) are submitted as query string.
+Eg: name=value & name = value.
+In case post the form elements are submitted as request body instead of query string.
+eg: target="frame name"
+specifies the frame name in which , the target url should be opened after form submisssion 
+name="name"
+Respresents logical name of the form
+novalidate="novalidate"
+Disable browser built in validation.  
+
+
+----------------------------------------------------------------------------------------
+
+
+    <input type="text">
+    <input type="checkbox">
+    <input type="email">
+	<input type="submit">
+	<input type="reset">
+	<input type="color">
+	<input type="date">
+	<input type="datetime-local">
+	<input type="time">
+	<input type="month">
+	<input type="week">
+	<input type="file">
+	<input type="week">
+	<input type="url">
+	<input type="number">
+	<input type="range">
+	<input type="search">
+	<input type="image">
+
+
+----------------------------------------------------------------------------------------
+
+
+
+
+2. id = "someid"
+specifies identification name of form elements, usd to refer form
+3. class="some class"
+specifies CSS class name of the form element to apply styles 
+4. value = "some value" 
+specifies current / default value of the form elements.
+5. readonly = "readonly"
+readonly textbox , cant modify
+6. Disabled = "Disabled"
+values will be blocked.
+7. src="filename"
+specifies source image path in case of <input type="image">
+8. autofocus="autofocus"
+Enables the browser to place the cursor in the form element by default, while opening 
+the web page.
+9. multiple="multiple"
+Allows the user to select multiple images in case of <input type=file>
+10. placeholder="some text"
+specifies the hint text that should be appear to the user, in case of value is empty.
+11. step="number"
+specifies step value for incremnet or decrement in case of input type="number"
+12. tabindex="number"
+specifies tab key order of the element.
+13. required="required"
+specifies that the form element is mandatory.
+14. min="number"
+specifies minimum value that is allowed in case of type="number" or type="range"
+or type="date"
+15. max="number"
+specifies maximum value that is allowed in case of type="number" or type="range" or 
+type="date"
+16. maxlength = "number"
+specifies maximum no. of characters allowed in the text box.
+17. pattern="reg exp"
+specifies regular expressions to validate te textbox value.
+18. list="id of datalist"
+specifies reference to the <datalist> tag,
+based on which the list of suggestions to be 
+displayed in the textbox.
+19. formvalidate="novalidate"
+disables the browser built in validations 
+used as alteernative <form nonvalidate="nonvalidate">
+20. form="id of form"
+specifies list of ids of form to which the form elements belongs to.
+21. 
 
 
 
