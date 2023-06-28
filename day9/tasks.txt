@@ -1,0 +1,61 @@
+
+
+<!DOCTYPE html> 
+this specifies that the document type is html 5
+
+The <html> tag marks the start of the html 
+document and contains the entire document.
+
+The lang="en" attribute in the <html> tag 
+indicates that the document is written in ENglish
+
+<head> section contains metadata and defines the document's title, 
+character encoding, linked style sheets , scripts and other information
+
+The <meta charset="UTF-8"> tag sets the character encoding to UTF-8, high support
+a wide range of characters.
+
+<title> tag defines the title of the web page which appears in the browsers title bar or tag.
+
+
+<body> tag defines the main content od the web page.
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+the viewport meta tag is used to control the layout and behaviour of the 
+webpage on different devices, especially mobile devices
+
+
+The name=viewpoint attribute specifies that this meta tag is related
+ to the viewpoint.
+ the content="width=device-width..>"
+ attribute-value pair sets the width of the 
+viewpoint to the devices width and sets the initial zoomlevel to 1.0
+
+The meta tag is crucial for creating a responsive design that adapts 
+to various screen sizes.
+----------------------------------------------------------
+
+<link rel="stylesheet" href="css/styles.css">
+<link> tag is used to include external resources in an HTMl document.
+
+
+2. href : attribute specifies the path or url of the external css file.
+
+3. rel : attribute specifies the relationship between the html document
+and the linked resource.
+
+------------------------------------------------------------------------------
+
+overflow : auto
+
+Css property is used to control the behaviour of content that exceeds
+the size of the box.
+
+
+
+
+
+
+
+

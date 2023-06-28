@@ -1,0 +1,154 @@
+
+
+body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.2em;
+    margin: 0px;
+    padding: 0px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+#navbar {
+    background-color: #35b135;
+    height: 60px;
+}
+
+#navbar .navbar-brand {
+    width: 30%;
+    /* background-color: blue; */
+    float: left;
+    padding-top: 16px;
+    padding-left: 15px;
+    color: #ecebeb;
+    font-weight: bold;
+}
+
+#navbar .nav {
+    width: 70%;
+    /* background-color: red; */
+    float: left;
+}
+
+#navbar .nav ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    margin-top: 15px;
+}
+
+#navbar .nav ul li {
+    float: left;
+}
+
+#navbar .nav ul li a:link,
+#navbar .nav ul li a:visited {
+    color: #ffffff;
+    text-decoration: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 6px;
+}
+
+#navbar .nav ul li a:hover {
+    background-color: #fef102;
+    color: rgb(0, 0, 0);
+    font-style: normal;
+    font-family: 'Times New Roman', Times, serif;
+
+
+}
+
+.center {
+    text-align: center;
+}
+
+
+/* table styles */
+.table {
+    width: 100%;
+    cursor: pointer;
+    box-shadow: 1px 1px 2px 2px #d4d0d0;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    border-collapse: collapse;
+    min-width: 1280px;
+}
+
+.table-container {
+    width: 95%;
+    margin: auto;
+    overflow: auto;
+    margin-bottom: 100px;
+    max-height: 700px;
+    
+}
+
+.table td {
+    border-top: 1px solid #a39d9d;
+    border-bottom: 1px solid #a39d9d;
+    padding: 8px;
+}
+
+.table th {
+    border: 1px solid #646363;
+    padding: 12px 10px;
+    text-align: left;
+    background-color: #000000;
+    color: #ffffff;
+    font-weight: 900;
+}
+
+.table th:hover {
+    text-align: center;
+}
+
+.table tr {
+    transition: background-color 0.3s;
+}
+
+.table tr:hover {
+    background-color: #33da12;
+    color: #ffffff;
+    font-family: cursive;
+    text-align: center;
+
+}
+
+
+.table tr:nth-child(even) {
+    background-color: #f40404;
+    color: #ffffff;
+    
+}
+
+caption {
+    font-family: 'Times New Roman', Times, serif;
+    color: #f8fafb;
+    background-color: #2a51ec;
+    font-size: 25px;
+    padding: 12px 10px;
+}
+caption:hover {
+    font-weight: bolder;
+    color: #f8fafb;
+    background-color: #2a51ec;
+    padding: 12px 10px;
+    margin-bottom: 10px;
+    font-size: 28px;
+}
+
+
+
+
+
+
+
+
+
+
+
