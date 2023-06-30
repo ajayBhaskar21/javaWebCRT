@@ -1,0 +1,64 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+
+    <style>
+
+        .container div{
+            
+            margin: 10px 2px;
+
+        }
+        button {
+            margin: 0px 2px;
+        }
+
+    </style>
+
+    <script >
+        var num1 = document.getElementById('num1');
+            var num2 = document.getElementById('num2');
+            var result = document.getElementById('res');
+        function add() {
+            
+
+            result.innerHTML =   0 + num1.value + num2.value;
+
+        }
+
+
+        
+
+
+
+    </script>
+
+</head>
+<body>
+    
+
+    <form action="">
+
+        <div class="container">
+            <h1>CALCULATOR</h1>
+            <div>Number1: <input id="num1" type="number" ><button onclick="add()">+</button><button onclick="sub()">-</button></div>
+            <div>Number2: <input id="num2" type="number"><button onclick="divide()">/</button><button onclick="multiply()">*</button></div>
+            <div>Resulting: <span id="res"></span><button onclick="clear()">clear</button>
+            </div>
+        </div>
+
+    </form>
+
+
+   
+
+
+</body>
+</html>

@@ -1,0 +1,80 @@
+background-image: url(bgimg2.jpg); 
+background-repeat: repeat;
+
+
+background-position: left top;
+center top , right top, left center, center center right center left bottom 
+center bottom, right bottom xpas ypas specifies where the background image should be appeared 
+in case of the background-repeat: no-repeat 
+
+
+background-size: auto | width height | cover;
+eg: background-size : 300px 500px 
+1. auto : the background image will be displayed in original size.
+2. width height : the background image will be based on the specified width and height.
+3. cover : the background image will be displayed based on width and height of the element 
+background, image covers the entire element 
+
+
+background-Attachment:
+background-attachment: scroll | fixed.
+eg : background-attachment : fixed;
+1.scroll : It is default.  the background image will be scrolled along with the web 
+2. fixed : the background image will not be scrolled along with the web page.
+
+
+---------------------------------------------------------------------------------------------------------
+
+
+
+Multiple-background Images  : 
+background: url("file path1") xpas ypas repeat, 
+url ("filepath2 ") xpas ypas repeat, ............... 
+
+1. you can set Multiple background images by specifying them in comma-separated format.
+2 At different corners of the lement, different background images will be displayed.
+
+
+---------------------------------------------------------------------------------------------------------
+
+
+<audio> 
+    <source src="filename.mp3">  
+    <source src="filename.optp">
+</audio>
+1. plays the specified audio file in the broser.
+2. If muliple <source> tags are specified any 
+one of the audio file will be played by the 
+broser automatically, whichever is compatible 
+with the browser
+
+
+
+---------------------------------------------------------------------------------------------------------
+youtube in html 
+
+<iframe width="pixels" height="px" src="" frameborder="0" allowfullscreen></iframe>
+
+
+---------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+---------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+---------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
