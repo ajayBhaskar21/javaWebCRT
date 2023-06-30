@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="css/styles.css">
+
+    <style>
+
+        .containerIn div {
+            margin: 15px 5px;
+
+        }
+
+        .containerOut {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        
+
+        .containerIn {
+            padding: 15px 10px;
+
+            margin-top: 70px;
+            background-color: aqua;
+            text-align: center;
+            box-shadow: 2px 2px 2px 2px black;
+            border-radius: 10px;
+        }
+        #result {
+            background-color: #ffffff;
+
+        }
+
+        .containerIn h1 {
+
+            color: rgb(174, 0, 255);
+
+        }
+
+        button {
+            background-color: #ffffff;
+            border: none;
+            font-size: 17px;
+            padding: 3px 4px;
+            cursor: pointer;
+
+        }
+        
+        button:hover {
+            box-shadow: 1px 1px 1px 1px gray;
+            
+        }
+
+    </style>    
+
+
+</head>
+<body>
+
+    <div id="navbar">
+        <div class="navbar-brand">India Tourism</div>
+        <div class="nav">
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="destination.html">Destinations</a></li>
+                <li><a href="states.html">States</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="capitals.html">Capitals</a></li>
+                <li><a href="signup.html">Sign Up</a></li>
+                <li><a href="calci.html">Calculator</a></li>
+            </ul>
+        </div>
+    </div>
+    
+
+    <div class="containerOut">
+        <div class="containerIn">
+            <h1>CALCULATOR</h1>
+            <div>Number1 : <input id="num1" type="number" required></div>
+            <div>Number2 : <input id="num2" type="number" required></div>
+            <div>
+                <button onclick="add()">add</button>
+                <button onclick="subtract()">subtract</button>
+                <button onclick="multiply()">multiply</button>
+                <button onclick="divide()">divide</button>
+            </div>
+            <div>Result : <input id="result" type="number" disabled></div>
+        </div>
+    </div>
+
+    
+
+
+
+    <script>
+        
+
+        function add() {
+            var x = document.getElementById('num1').value;
+            var y = document.getElementById('num2').value;
+            document.getElementById('result').value = 
+            Number(x) + Number(y);
+
+
+        }
+
+        function subtract() {
+            var x = document.getElementById('num1').value;
+            var y = document.getElementById('num2').value;
+            document.getElementById('result').value = 
+            Number(x) - Number(y);
+        }
+        function multiply() {
+            var x = document.getElementById('num1').value;
+            var y = document.getElementById('num2').value;
+            document.getElementById('result').value = 
+            Number(x) * Number(y);
+        }
+        function divide() {
+            var x = document.getElementById('num1').value;
+            var y = document.getElementById('num2').value;
+            document.getElementById('result').value = 
+            Number(x) / Number(y);
+        }
+
+    </script>
+
+
+    
+</body>
+</html>
